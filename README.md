@@ -1,8 +1,7 @@
 # avr-uno-DUAL-pin-change-interrupt
 
 ```diff
-- This is not the final code. There still is a problem I want to fix and that is the turn OFF
-  code block of the other pin getting activated even though it was not ON previously. 
+- This is not the final code. There still is a problem I want to fix and that is the turn OFF code block of the other pin getting activated even though it was not ON previously. 
 ```
 
  ## INTERRPUT PINS FROM SAME GROUP

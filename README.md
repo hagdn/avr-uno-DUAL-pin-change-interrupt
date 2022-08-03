@@ -1,11 +1,4 @@
 # avr-uno-DUAL-pin-change-interrupt
-
-```diff
-
-- This is not the final code. There still is a problem I want to fix and that is the turn OFF 
-- code block of the other pin getting activated even though it was not ON previously.
-```
-
 INTERRPUT PINS FROM SAME GROUP
 This code is a demonstration when two interrupt pins from same interrupt
 pin group is being used. The idea is to create a checker in which it
@@ -16,6 +9,12 @@ In this case, PIN8 and PIN9 are used as interrupt pins both from GROUP 0.
 While PIN10 and PIN13 are used as OUTPUTS, external and built-in LED.
 
 For more information, consult the ATMega328p datasheet page 56-57.
+
+```diff
+
+- This is not the final code. There still is a problem I want to fix and that is the turn OFF 
+- code block of the other pin getting activated even though it was not ON previously.
+```
  
  ## How to upload the code:
 ### A. Through Arduino IDE

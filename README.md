@@ -1,6 +1,6 @@
 # avr-uno-DUAL-pin-change-interrupt
 
-                     INTERRPUT PINS FROM SAME GROUP
+ ## INTERRPUT PINS FROM SAME GROUP
  This code is a demonstration when two interrupt pins from same interrupt
  pin group is being used. The idea is to create a checker in which it
  detects which specific interrupt  pin# activated and runs specific code.

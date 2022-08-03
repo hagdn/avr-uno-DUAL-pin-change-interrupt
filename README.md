@@ -9,7 +9,7 @@
  In this case, PIN8 and PIN9 are used as interrupt pins both from GROUP 0.
  While PIN10 and PIN13 are used as OUTPUTS, external and built-in LED.
  
- For more information consult the ATMega328p datasheet page 56-57.
+ For more information, consult the ATMega328p datasheet page 56-57.
  
  ## How to upload the code:
 ### A. Through Arduino IDE

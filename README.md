@@ -6,16 +6,16 @@
 - code block of the other pin getting activated even though it was not ON previously.
 ```
 
- ## INTERRPUT PINS FROM SAME GROUP
- This code is a demonstration when two interrupt pins from same interrupt
- pin group is being used. The idea is to create a checker in which it
- detects which specific interrupt  pin# activated and runs specific code.
- in the interrupt vector for that interrupt pin.
+INTERRPUT PINS FROM SAME GROUP
+This code is a demonstration when two interrupt pins from same interrupt
+pin group is being used. The idea is to create a checker in which it
+detects which specific interrupt  pin# activated and runs specific code.
+in the interrupt vector for that interrupt pin.
 
- In this case, PIN8 and PIN9 are used as interrupt pins both from GROUP 0.
- While PIN10 and PIN13 are used as OUTPUTS, external and built-in LED.
- 
- For more information, consult the ATMega328p datasheet page 56-57.
+In this case, PIN8 and PIN9 are used as interrupt pins both from GROUP 0.
+While PIN10 and PIN13 are used as OUTPUTS, external and built-in LED.
+
+For more information, consult the ATMega328p datasheet page 56-57.
  
  ## How to upload the code:
 ### A. Through Arduino IDE

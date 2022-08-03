@@ -1,4 +1,4 @@
-# avr-uno-DUAL-pin-change-interrupt
+# AVR - Arduino Uno: Pin change interrupt (DUAL)
 INTERRPUT PINS FROM SAME GROUP
 This code is a demonstration when two interrupt pins from same interrupt
 pin group is being used. The idea is to create a checker in which it

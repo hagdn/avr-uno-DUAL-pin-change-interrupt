@@ -1,3 +1,8 @@
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//                         By Henjie Agadan
+// Using dual pin interrupt pin. Baremetal programming for ATMega328p.
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 #include <avr/io.h>
 #include <avr/interrupt.h>
 
